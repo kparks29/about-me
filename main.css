@@ -1,14 +1,19 @@
 body {
-  background-color: rgba(255, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 1);
   font-family: "Comic Sans MS";
   margin: 0;
 }
 
 header {
   font-size: 20px;
-  background-color: #eee;
+  background-color: rgba(49, 59, 71, 1);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
+  color: white;
+}
+
+a {
+  color: gold;
 }
 
 h1 {
@@ -38,7 +43,7 @@ p:last-child {
 
 #container {
   width: 99%;
-  border: 5px solid lime;
+  border: 5px solid yellow;
 }
 
 #main {
@@ -46,8 +51,12 @@ p:last-child {
   width: 80%;
   text-align: center;
   padding: 5px;
-  border: 5px solid lime;
+  border: 5px solid gold;
   margin: 0 auto;
+}
+
+#bottom p {
+  color: white;
 }
 
 
@@ -57,7 +66,10 @@ nav {
   left: 0;
   width: 100%;
   height: 50px;
-  background-color: red;
+  background-color: black;
+  border: 5px solid yellow;
+  border-left: 0;
+  border-right: 0;
 }
 
 nav ul li {
@@ -73,6 +85,7 @@ footer {
   width: 100%;
   text-align: center;
   font-size: 10px;
+  color: white;
 }
 
 .photo {
